@@ -67,6 +67,7 @@ h1 {
     font-weight: 700 ;
     font-size: 2rem;
     font-family: "Cormorant", serif;
+    text-align: center;
 
 }
 
@@ -78,7 +79,7 @@ input[type=number]::-webkit-inner-spin-button {
 
 #notification {
     background-color: rgba(245, 246, 255, 0.95);
-    margin: 10vh;
+    margin: 10vh 10vh 5vh 10vh;
     width: 80%;
     align-items: center;
     justify-content: center;
@@ -153,6 +154,8 @@ text-align: center;
     justify-content: space-between;
     align-content: stretch;
     text-align: justify;
+    font-family: "Cormorant", serif;
+
 }
 
 
@@ -173,8 +176,9 @@ display: flex;
 flex-wrap: wrap;
 width: 100%;
 margin: 0;
-padding: 4rem;
+padding: 3rem;
 font-family: "Cormorant", serif;
+
 
 
 text-align: center;
