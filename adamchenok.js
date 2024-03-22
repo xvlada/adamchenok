@@ -32,7 +32,7 @@ const hubSizeChlen = (chlenBefore, monthsOfTraining) => {
     } 
     
     else {
-        document.getElementById('result').textContent = 'Сперва введи свои данные спрева, зай:)';
+        document.getElementById('result').textContent = 'Сперва введи свои данные , зай:)';
     }
 };
 
