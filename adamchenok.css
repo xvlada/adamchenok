@@ -1,0 +1,229 @@
+* {
+    /* background-color: rgb(244, 240, 252); */
+    font-family: "Cormorant", serif;
+    /* filter: brightness(50%) grayscale(30%); */
+    font-size: 45px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+title{
+    display: none;
+}
+
+body{
+    background-image: url(background.jpg);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    min-height: 100vh;
+
+}
+
+.text {
+  font-family: "Cormorant", serif;
+  font-size: 1.2rem;
+  margin: 1rem;
+}
+
+.logo {
+ display: flex;
+ text-align: justify;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-weight: 100;
+background-color: rgba(26, 45, 145, 0.92);
+color: rgb(250, 239, 239);
+font-family: "Cormorant", serif;
+padding: 1rem;
+border-radius: 2rem;
+}
+
+img {
+    height: 100px;  
+    width: auto; 
+    align-content: baseline;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+h1 {
+    font-size: 0.5rem;
+    
+}
+
+.calculator {
+    background-repeat: no-repeat;
+    height: fit-content;
+    width: auto;
+    
+}
+
+.calcLogo {
+    margin-top: 1rem;
+    font-weight: 700 ;
+    font-size: 2rem;
+    font-family: "Cormorant", serif;
+
+}
+
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    
+  }
+
+
+#notification {
+    background-color: rgba(245, 246, 255, 0.95);
+    margin: 10vh;
+    width: 80%;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2rem;
+    padding: 1rem 1.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+#piclogo {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#pic {
+    display: flex;
+     
+}
+.buttonbox {
+    display: flex;
+    font-family: "Cormorant", serif;
+   
+   
+
+
+}
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    border-radius: 1rem;
+    border: 0;
+    margin-top: 2rem;
+    background-color: rgba(26, 45, 145, 0.92);
+    color: aliceblue;
+    font-family: "Cormorant", serif;}
+
+.button:hover {
+  /* filter: brightness(90); */
+  background-color: aliceblue;
+  color: rgb(26, 45, 145);
+  font-weight: 600;
+  border: 1px solid rgb(26, 45, 145); 
+
+}
+#left, #right {
+ width: 50%;
+ display: flex;
+ 
+}
+
+input {
+    width: 50%;
+}
+
+.rightlable {
+    width: 50%;
+}
+
+#small {
+    font-size: 1rem;
+    color: gray;
+    margin: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-content: stretch;
+    text-align: justify;
+}
+
+
+footer{
+  background-color: white;
+  height: auto;
+  width: 100%;
+ 
+  bottom: 0;
+  align-content: center;
+  justify-content: center;
+  color: black;
+}
+
+.result {
+ font-size: 2rem;
+display: flex;
+flex-wrap: wrap;
+width: 100%;
+margin: 0;
+padding: 4rem;
+
+ 
+  
+}
+
+
+
+
+
+
+  /* reset */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+   
+  
+}
+
+
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a {
+  color: black;
+  text-decoration: none;}
