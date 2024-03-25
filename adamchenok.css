@@ -20,7 +20,7 @@ body{
     flex-wrap: wrap;
     justify-content: center;
     min-height: 100vh;
-    cursor: url(./cursor.png),  auto;
+    cursor: url('./cursor.png'),  auto;
 }
 
 .text {
