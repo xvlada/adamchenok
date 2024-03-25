@@ -6,7 +6,9 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    
 }
+
 
 title{
     display: none;
@@ -18,7 +20,7 @@ body{
     flex-wrap: wrap;
     justify-content: center;
     min-height: 100vh;
-
+    cursor: url(./cursor.png),  auto;
 }
 
 .text {
